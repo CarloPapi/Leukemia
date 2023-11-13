@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+
+#background-image{
+    position: fixed;
+    width: 101vw;
+    height: 40vh;
+    top: -1%;
+    left: -1%;
+    z-index: -1;
+}
+
+#heading{
+    text-align: center;
+    font-size: 10vh;
+    z-index: 1;
+    margin-top: 40vh;
+    font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
+    text-decoration: underline;
+}
+
+.content-headings{
+    position: absolute;
+    font-size: 4vh;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+#description-heading{
+    margin-left: 5vw;
+    top: 70%
+}
+
+#description-content{
+    position: absolute;
+    font-size: 2.5vh;
+    margin-left: 30vw;
+    top: 70%;
+}
+
+#effects-container{
+    margin-top: 23%;
+}
+
+#effects-heading{
+    position: relative;
+    text-align: center;
+}
+
+table{
+    font-size: 2vh;
+    width: 60vh;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+#table-heading{
+    font-size: 3vh
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    #heading{
+        font-size: 7vh;
+        margin-left: 30vw;
+    }
+    .content-headings{
+        font-size: 2vh;
+    }
+    #description-heading{
+        left: 20%;
+    }
+    #description-content{
+        font-size: 1.5vh;
+        top: 75%;
+        margin-left: 20vw;
+    }
+    #effects-heading{
+        margin-top: 38vh;
+        margin-left: 15vw;
+    }
+    table{
+        width: 50%;
+        margin-top: 7vh;
+        font-size: 2vh;
+        min-width: 70%;
+        margin-left: 30vw;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    #description-heading{
+        margin-left: 12vw;
+        margin-top: -5vh;
+    }
+    #description-content{
+        max-width: 60%;
+        margin-left: 40vw;
+        margin-top: -5vh;
+    }
+    table{
+        width: 50vw;
+    }
+}

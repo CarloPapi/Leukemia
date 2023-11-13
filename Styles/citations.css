@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(200, 200, 200);
+    height: 200vh;
+}
+
+#background-image{
+    position: fixed;
+    width: 101vw;
+    height: 40vh;
+    top: -1%;
+    left: -1%;
+    z-index: -1;
+}
+
+#heading{
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 40vh;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+    text-decoration: underline;
+}
+
+.citations{
+    margin-left: 30vw;
+    font-size: 3vh;
+    margin-top: 5vh;
+    max-width: 50vw;
+}
+
+#images-caption{
+    margin-left: 40vw;
+    font-size: 6vh;
+    text-decoration: underline;
+}
